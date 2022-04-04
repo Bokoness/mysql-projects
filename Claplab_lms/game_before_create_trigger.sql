@@ -1,7 +1,7 @@
 DROP TRIGGER if exists game_before_create;
 CREATE TRIGGER game_before_create
     BEFORE
-INSERT 
+INSERT
 	ON
 	games
     FOR EACH ROW
